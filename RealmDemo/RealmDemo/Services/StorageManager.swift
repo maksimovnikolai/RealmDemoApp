@@ -69,7 +69,7 @@ final class StorageManager {
     
     func done(_ task: Task) {
         write {
-            task.isCompleted.toggle()
+            task.isComplete.toggle()
         }
     }
     

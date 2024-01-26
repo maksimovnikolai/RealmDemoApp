@@ -15,6 +15,10 @@
 		ADC8D20D2B63B9A800112718 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = ADC8D20C2B63B9A800112718 /* Realm */; };
 		ADC8D20F2B63B9A800112718 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ADC8D20E2B63B9A800112718 /* RealmSwift */; };
 		ADC8D2112B63BCE000112718 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D2102B63BCE000112718 /* TaskList.swift */; };
+		ADC8D2132B63BF4200112718 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D2122B63BF4200112718 /* DataManager.swift */; };
+		ADC8D2152B63C33900112718 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D2142B63C33900112718 /* StorageManager.swift */; };
+		ADC8D2182B63F1CB00112718 /* UITableViewCell+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D2172B63F1CB00112718 /* UITableViewCell+extension.swift */; };
+		ADC8D21B2B63F76700112718 /* UIAlertController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D21A2B63F76700112718 /* UIAlertController+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		ADC8D1FE2B63B26D00112718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADC8D2092B63B7A400112718 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 		ADC8D2102B63BCE000112718 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		ADC8D2122B63BF4200112718 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		ADC8D2142B63C33900112718 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		ADC8D2172B63F1CB00112718 /* UITableViewCell+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+extension.swift"; sourceTree = "<group>"; };
+		ADC8D21A2B63F76700112718 /* UIAlertController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,8 @@
 		ADC8D1EF2B63B26C00112718 /* RealmDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ADC8D2162B63C6DA00112718 /* Secrets */,
+				ADC8D2192B63F72300112718 /* Extensions */,
 				ADC8D2042B63B5FF00112718 /* Application */,
 				ADC8D2072B63B67000112718 /* Services */,
 				ADC8D2062B63B66200112718 /* Models */,
@@ -98,6 +108,7 @@
 		ADC8D2072B63B67000112718 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				ADC8D2142B63C33900112718 /* StorageManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -109,6 +120,23 @@
 				ADC8D1FB2B63B26D00112718 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		ADC8D2162B63C6DA00112718 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				ADC8D2122B63BF4200112718 /* DataManager.swift */,
+			);
+			path = Secrets;
+			sourceTree = "<group>";
+		};
+		ADC8D2192B63F72300112718 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ADC8D21A2B63F76700112718 /* UIAlertController+extension.swift */,
+				ADC8D2172B63F1CB00112718 /* UITableViewCell+extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +217,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADC8D2112B63BCE000112718 /* TaskList.swift in Sources */,
+				ADC8D2132B63BF4200112718 /* DataManager.swift in Sources */,
+				ADC8D21B2B63F76700112718 /* UIAlertController+extension.swift in Sources */,
 				ADC8D1F12B63B26C00112718 /* AppDelegate.swift in Sources */,
+				ADC8D2182B63F1CB00112718 /* UITableViewCell+extension.swift in Sources */,
+				ADC8D2152B63C33900112718 /* StorageManager.swift in Sources */,
 				ADC8D1F32B63B26C00112718 /* SceneDelegate.swift in Sources */,
 				ADC8D20A2B63B7A400112718 /* TaskListViewController.swift in Sources */,
 			);
