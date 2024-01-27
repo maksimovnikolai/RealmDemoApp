@@ -19,6 +19,7 @@
 		ADC8D2152B63C33900112718 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D2142B63C33900112718 /* StorageManager.swift */; };
 		ADC8D2182B63F1CB00112718 /* UITableViewCell+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D2172B63F1CB00112718 /* UITableViewCell+extension.swift */; };
 		ADC8D21B2B63F76700112718 /* UIAlertController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D21A2B63F76700112718 /* UIAlertController+extension.swift */; };
+		ADC8D21D2B640A0C00112718 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D21C2B640A0C00112718 /* TasksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		ADC8D2142B63C33900112718 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		ADC8D2172B63F1CB00112718 /* UITableViewCell+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+extension.swift"; sourceTree = "<group>"; };
 		ADC8D21A2B63F76700112718 /* UIAlertController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+extension.swift"; sourceTree = "<group>"; };
+		ADC8D21C2B640A0C00112718 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				ADC8D2092B63B7A400112718 /* TaskListViewController.swift */,
+				ADC8D21C2B640A0C00112718 /* TasksViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				ADC8D2152B63C33900112718 /* StorageManager.swift in Sources */,
 				ADC8D1F32B63B26C00112718 /* SceneDelegate.swift in Sources */,
 				ADC8D20A2B63B7A400112718 /* TaskListViewController.swift in Sources */,
+				ADC8D21D2B640A0C00112718 /* TasksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

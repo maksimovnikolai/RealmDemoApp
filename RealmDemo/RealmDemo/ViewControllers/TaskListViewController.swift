@@ -138,6 +138,9 @@ extension TaskListViewController: UITableViewDataSource {
 extension TaskListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-
+        let taskList = taskLists[indexPath.row]
+        let tasksVC = TasksViewController()
+        tasksVC.taskList = taskList
+        navigationController?.pushViewController(tasksVC, animated: true)
     }
 }
